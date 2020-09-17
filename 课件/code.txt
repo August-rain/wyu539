@@ -1,0 +1,60 @@
+
+Administrator@PC43 MINGW64 /d/github
+$ git add
+fatal: not a git repository (or any of the parent directories): .git
+
+Administrator@PC43 MINGW64 /d/github
+$ git clone https://github.com/August-rain/wyu539.git
+Cloning into 'wyu539'...
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), done.
+
+Administrator@PC43 MINGW64 /d/github
+$ cd wyu539
+
+Administrator@PC43 MINGW64 /d/github/wyu539 (master)
+$ git add .
+
+Administrator@PC43 MINGW64 /d/github/wyu539 (master)
+$ git commit -m "ggg"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Administrator@PC43.(none)')
+
+Administrator@PC43 MINGW64 /d/github/wyu539 (master)
+$ git config --global user.email "you@example.com"
+
+Administrator@PC43 MINGW64 /d/github/wyu539 (master)
+$ git config --global user.name "Your Name"
+
+Administrator@PC43 MINGW64 /d/github/wyu539 (master)
+$ git commit -m "ggg"
+[master 96135ff] ggg
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.txt
+
+Administrator@PC43 MINGW64 /d/github/wyu539 (master)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 329 bytes | 329.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/August-rain/wyu539.git
+   a176950..96135ff  master -> master
+
+Administrator@PC43 MINGW64 /d/github/wyu539 (master)
+$
